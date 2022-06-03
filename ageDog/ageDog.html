@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Idade "Humana" de seu Dog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="UTF-8">        
+        <link rel="stylesheet" href="ageDog.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+    <body>
+        <div class="container">
+          <h1 class="page-title">
+            Quantos Anos "Humanos" tem Seu Dog?</h1>
+          <p class="page-subtitle">
+            Calcule a idade correta!
+          </p>
+          <img src="https://meucaocompanheiro.com/blog/wp-content/uploads/2016/05/capa-video-facebook-3-770x340.png" class="imgTitlle" alt="">
+      
+          <div class="boxAge">
+            <label for="number">
+              <h2>Insira os dados de Seu Pet:</h2>
+            </label>
+            <div class="nome">Qual é o nome dele(a)?<input type="text" id="dogName" size="2" /></div>
+            <div class="age">E a idade de dog é?<input type="number" id="dogAge" size="2" /></div>
+           
+            <button class="btnMedia" type="submit" onclick="calcDogAge()">Calcular Idade Humana</button>
+            
+          </div>
+      
+          <div class="resultado">
+            <h2>A idade "Humana" de seu Doguinho é:</h2>
+            <div class="idade" id="results"></div>
+            <div class="classificacao">
+              <h4>Classificação:</h4>
+            </div>
+            <div class="aprovacao" id="classification"></div>
+          </div>
+      
+        </div>
+       
+      </body>
+
+      <script src="ageDog.js"></script>
+      
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Média Escolar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="UTF-8">        
+        <link rel="stylesheet" href="mediaEscolar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+    <body>
+        <div class="container">
+          <h1 class="page-title">
+            Calculadora de Média Escolar</h1>
+          <h2 class="page-subtitle">
+            Calcule sua média de notas!
+          </h2>
+        
+      
+          <div class="boxNotas">
+            <label for="number">
+              <h2>Insira suas Notas:</h2>
+            </label>
+            <div class="nome">Qual é seu nome?<input type="text" id="name" size="2" /></div>
+            <div class="notas">Nota do 1º Bismestre:<input type="number" id="PrimeiroBimestre" size="2" /></div>
+            <div class="notas">Nota do 2º Bismestre:<input type="number" id="SegundoBimestre" size="2" /></div>
+            <div class="notas">Nota do 3º Bismestre:<input type="number" id="TerceiroBimestre" size="2" /></div>
+            <div class="notas">Nota do 4º Bismestre:<input type="number" id="QuartoBimestre" size="2" /></div>
+            <button class="btnMedia" type="submit" onclick="CalcMedia()">Calcular Média</button>
+            
+          </div>
+      
+          <div class="resultado">
+            <h2>Sua nota final é:</h2>
+            <div class="nota" id="results"></div>
+            <div class="classificacao">
+              <h4>Classificação:</h4>
+            </div>
+            <div class="aprovacao" id="classification"></div>
+          </div>
+      
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+      </body>
+
+      <script src="mediaEscolar.js"></script>
+      
+</html>

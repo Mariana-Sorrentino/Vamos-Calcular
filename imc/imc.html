@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>IMC</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="UTF-8">        
+        <link rel="stylesheet" href="imc.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+    <body>
+        <div class="container">
+          <h1 class="page-title">
+            Vamos Calcular seu IMC?</h1>             
+
+          
+        <div class="goupContainer">
+            
+          <div class="boxItens">
+            <img class="imgTitlle" src="https://www.plasticadosonho.com.br/wp-content/uploads/2017/12/blog-06-como-calcular-o-imc.jpg"> 
+          </div>
+          
+            <div class="boxItens">
+                <div class="boxIfo">
+                    <label for="number">
+                    <h2>Insira Seus Dados</h2>
+                    </label>
+                    <div class="nome">Qual é o Seu Nome?<input type="text" id="name" size="2" /></div>
+                    <div class="valor">Qual é seu Peso (Em Kg)?<input type="number" id="weigh" size="2" /></div>
+                    <div class="valor">Qual é a sua Altura (Em Metro)?<input type="number" id="height" size="2" /></div>
+                
+                    <button class="btnCalc" type="submit" onclick="calcImc()">Calcular IMC</button>                    
+                </div>
+            
+                <div class="resultado">
+                    <h2>Seu Índice de Massa Corporal (IMC) é: </h2>
+                    <div class="idade" id="results"></div>
+                    <div class="classificacao">
+                    <h4>Classificação:</h4>
+                    </div>
+                    <div class="aprovacao" id="classification"></div>
+                </div>          
+          </div>
+        </div>
+          
+        </div>
+       
+      </body>
+
+      <script src="imc.js"></script>
+      
+</html>

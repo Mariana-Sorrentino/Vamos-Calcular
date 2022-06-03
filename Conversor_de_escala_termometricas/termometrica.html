@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Conversor de Moedas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="UTF-8">        
+        <link rel="stylesheet" href="ConversorTermometria.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+  <body>
+
+    <div class="container">
+        <h1 class="page-title">
+          Conversão de Escalas Termométricas
+        </h1>
+        <p class="page-subtitle">
+          Conversor de temperaturas entre Farenheit, Kelvin e Celsius
+        </p>      
+      
+        <div class="boxConversor">
+      
+          <div class="conversor">
+            <label for="moeda">
+              <h4>Celsius para Kelvin</h4>
+            </label>
+            <input type="number" id="valorCeusiusK" size="2" />
+            <button type="submit" onclick="ConverterCeusiusK()">Converter</button>
+            <div class="results">Resultado em Kelvin (K):</div>
+            <div class="valorConvertido" id="valorConvertidoCeusiusK"></div>
+          </div>
+      
+          <div class="conversor">
+            <label for="moeda">
+              <h4>Kelvin para Celsius</h4>
+            </label>
+            <input type="number" id="valorKelvinC" size="2" />
+            <button type="submit" onclick="ConverterKelvinC()">Converter</button>
+            <div class="results">Resultado em Celsius (ºC):</div>
+            <div class="valorConvertido" id="valorConvertidoKelvinC"></div>
+          </div>
+      
+        </div>
+      
+        <div class="boxConversor">
+      
+          <div class="conversor">
+            <label for="moeda">
+              <h4>Celsius para Fahrenheit</h4>
+            </label>
+            <input type="number" id="valorCeusiusF" size="2" />
+            <button type="submit" onclick="ConverterCeusiusF()">Converter</button>
+            <div class="results">Resultado em Fahrenheit (ºF):</div>
+            <div class="valorConvertido" id="valorConvertidoCeusiusF"></div>
+          </div>
+      
+          <div class="conversor">
+            <label for="moeda">
+              <h4>Fahrenheit para Celsius</h4>
+            </label>
+            <input type="number" id="valorFahrenheitC" size="2" />
+            <button type="submit" onclick="ConverterFahrenheitC()">Converter</button>
+            <div class="results">Resultado em Celsius (ºC):</div>
+            <div class="valorConvertido" id="valorConvertidoFahrenheitC"></div>
+          </div>
+      
+        </div>
+      
+        <div class="boxConversor">
+      
+          <div class="conversor">
+            <label for="moeda">
+              <h4>Kelvin para Fahrenheit</h4>
+            </label>
+            <input type="number" id="valorKelvinF" size="2" />
+            <button type="submit" onclick="ConverterKelvinF()">Converter</button>
+            <div class="results">Resultado em Fahrenheit (ºF):</div>
+            <div class="valorConvertido" id="valorConvertidoKelvinF"></div>
+          </div>
+      
+          <div class="conversor">
+            <label for="moeda">
+              <h4>Fahrenheit para Kelvin</h4>
+            </label>
+            <input type="number" id="valorFahrenheitK" size="2" />
+            <button type="submit" onclick="ConverterFahrenheitK()">Converter</button>
+            <div class="results">Resultado em Celsius (ºC):</div>
+            <div class="valorConvertido" id="valorConvertidoFahrenheitK"></div>
+          </div>
+      
+        </div>
+      
+      </div>    
+
+        <script src="ConversorTermometria.js"></script>
+            
+  </body>
+
+</html>

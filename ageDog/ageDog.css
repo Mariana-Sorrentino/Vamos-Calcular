@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Dancing+Script&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;
+    background-image: url("https://i.pinimg.com/736x/d1/d7/88/d1d7889a87466b5e87ccf88272bf8f90.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+  }
+  
+  .page-title {
+    color: #ddd;
+    margin: 0 0 10px;
+    font-size: 2em;
+  }
+  
+  .page-subtitle {
+    color: #ddd;
+    margin-top: 5px;
+    font-size: 2em;
+  }
+  
+  .imgTitlle {
+    width: 500px;
+    border: solid 3px #ff2b2b;
+    border-radius: 15px;
+    margin-top: -10px;
+  } 
+ 
+
+  .boxAge {
+    width: 800px;
+    height: auto;
+    background-color: #ebe8e8;
+    color: #ff2b2b;
+    border: solid 3px #ff2b2b;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+  }
+  
+  .nome {
+    width: 90%;
+    height: auto;
+    font-size: 1em;
+    font-family: "Roboto Mono", monospace;
+    border: solid 3px #20212c;
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .nome input {
+    width: 50%;
+    height: auto;
+    font-family: "Roboto Mono", monospace;
+    font-size:  1em;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    background-color: #ff2b2b88;
+    color: #20212c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }  
+  
+  .age {
+    width: 60%;
+    height: auto;
+    font-family: "Roboto Mono", monospace;
+    font-size:  1em;
+    border: solid 3px #20212c;
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+  
+  .age input {
+    width: 50%;
+    height: auto;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    background-color: #ff2b2b88;
+    color: #20212c;
+    cursor: pointer;
+  }
+  
+  .btnMedia {
+    width: auto;
+    height: auto;
+    font-family: "Roboto Mono", monospace;
+    font-size:  1em;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 10px;
+    border: none;
+    background-color: #ff2b2b;
+    color: #ddd;
+    cursor: pointer;
+    transition: all ease .5s;
+  }
+  
+  .btnMedia:hover {
+    opacity: 0.8;
+    transform: scale(1.06);
+  }
+  
+  .resultado {
+    width: 720px;
+    height: auto;
+    background-color: #ebe8e8;;
+    color: #ff2b2b;
+    border: solid 3px #ff2b2b;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.2em;
+    padding: 0px 5px;
+    border-radius: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+  }
+  
+  .idade {
+    width: 50%;
+    height: 60px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 2.5em;
+    border: solid 3px #20212c;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .classificacao {
+    width: auto;
+    height: auto;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.2em;
+    left: 0; 
+    margin-top: -20px; 
+    margin-bottom: -20px;  
+  }
+  
+  .aprovacao {
+    width: 95%;
+    height: 35px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1em;
+    border: solid 3px #20212c;
+    color: #ddd;
+    margin-bottom: 15px;
+    border-radius: 10px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+
+
+
+  @media only screen and (max-width: 770px) {
+
+    .page-title{
+        font-size: 1.5em;
+        transition: all .5s ease-in-out;
+    }
+
+    .page-subtitle {
+      font-size: 1.5em;
+      transition: all .5s ease-in-out;
+    }
+
+    .imgTitlle {
+      width: 300px;
+      transition: all .5s ease-in-out;
+    }
+
+    .boxAge {
+      width: 90%;
+      font-size: .8em;
+      transition: all .5s ease-in-out;
+    }
+    
+    .resultado {
+      width: 90%;
+      font-size: .8em;
+      transition: all .5s ease-in-out;
+    }    
+  }
+
+
+
+  @media only screen and (max-width: 615px) {
+    .aprovacao {
+      font-size: 0.8em;
+      transition: all .5s ease-in-out;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 560px) {
+
+    .page-title{
+      font-size: 1.2em;
+      transition: all .5s ease-in-out;
+    }
+
+    .page-subtitle {
+      font-size: 1.2em;
+      transition: all .5s ease-in-out;
+    }
+
+
+    .nome input {
+     margin-top: 10px;
+     transition: all .5s ease-in-out;
+    }
+
+    .age input {
+      margin-top: 10px;
+      transition: all .5s ease-in-out;
+    }
+
+    .idade {
+      font-size: 2em;
+      transition: all .5s ease-in-out;
+    }
+  }

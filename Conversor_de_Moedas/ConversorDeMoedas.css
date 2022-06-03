@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+     background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/4523061-notas-de-dolar-com-taxas-de-cambio-no-fundo-gr%C3%A1tis-foto.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .container {
+    width: 100%;
+    text-align: center;   
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .page-title {
+    color: #ddd;
+    margin: 0 0 10px;
+    font-size: 4em;
+    margin-bottom: 10px;
+    -webkit-linear-gradient: left, #ffffff, #0c7511, #002502;
+    background: linear-gradient(to right, #ffffff, #0c7511, #002502);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-family: sans-serif;
+    text-align: center;  
+  }
+  
+  .page-subtitle {
+    color: #8ad18d;
+    margin-top: 5px;
+    font-size:3em;
+  } 
+ 
+  input {
+    width: 50%;
+    height: 40px;
+    margin: 12px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: solid 2px #111;
+    background-color: #ddd;
+    color: #111;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  label {
+    color: #8ad18d;
+  }
+  
+  .boxConversor {
+    width:80%;
+    height: auto;
+    padding: 0;
+    color: #8ad18d;
+    background-color: #d9fcdb1e;   
+    box-shadow: 0px 0px 50px #474747;    
+    border: solid 2px #ddd;
+    border-radius: 15px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .conversor{
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+    color: #8ad18d;
+    font-size: 35px;
+    border-right: solid 2px #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .valorMoeda {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #0c7511;
+    color: #ddd;
+    cursor: pointer;
+    transition: all ease 0.5s;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+  
+  .results{
+    width: 340px;
+    height: auto;
+    background-color: transparent;
+    color: #8ad18d;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-top: 30px;  
+  }
+  
+  .valorConvertido{
+    width: 400px;
+    height: 60px;
+    background-color: transparent;
+    color: #ddd;
+    font-size: 40px; 
+    border: solid 2px #ddd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

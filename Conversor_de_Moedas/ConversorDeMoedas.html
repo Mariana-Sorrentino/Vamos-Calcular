@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Conversor de Moedas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="UTF-8">        
+        <link rel="stylesheet" href="ConversorDeMoedas.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h1 class="page-title">
+              Conversor de moedas
+            </h1>
+            <h2 class="page-subtitle">
+              Converta os valores para Real R$
+            </h2>
+                       
+            <div class="boxConversor">
+              
+               <div class="conversor">
+                 <div class="valorMoeda"> 
+                    <h4>Insira o valor do Dólar (US$) hoje</h4>
+                    <label for="moeda"></label>
+                    <input type="number" id="valorDolarUn" size="2" />
+                 </div>
+
+                 <div class="valorMoeda"> 
+                    <h4>Insira o valor em Dólar (US$) que deseja converter</h4>
+                    <label for="moeda"></label>
+                    <input type="number" id="valorDolar" size="2" />
+                </div>
+                 
+                  
+                  <button type="submit" onclick="ConverterDolar()">Converter</button>
+                 <div class="results">O Valor em Real é R$:</div>
+                  <div class="valorConvertido" id="valorConvertidoDolar"></div>
+                </div>
+
+
+                <div class="conversor">
+                  <div class="valorMoeda"> 
+                     <h4>Insira o valor do Euro (€) hoje</h4>
+                     <label for="moeda"></label>
+                     <input type="number" id="valorEuroUn" size="2" />
+                  </div>
+ 
+                  <div class="valorMoeda"> 
+                     <h4>Insira o valor em Euro (€) que deseja converter</h4>
+                     <label for="moeda"></label>
+                     <input type="number" id="valorEuro" size="2" />
+                 </div>
+                  
+                   
+                   <button type="submit" onclick="ConverterEuro()">Converter</button>
+                  <div class="results">O Valor em Real é R$:</div>
+                   <div class="valorConvertido" id="valorConvertidoEuro"></div>
+                 </div>
+                  
+                 <!-- <div class="conversor">
+                    <label for="moeda"><h4>Insira o valor em Euro (€)</h4></label>
+                    <input type="number" id="valorEuro" size="2" />
+                    <button type="submit" onclick="ConverterEuro()">Converter</button>
+                    <div class="results">O Valor em Real é R$:</div>
+                    <div class="valorConvertido" id="valorConvertidoEuro"></div>
+                 </div> -->
+              
+             </div>
+          </div>    
+         
+
+            <script src="ConversorDeMoedas.js"></script>
+        
+    </body>
+</html>
